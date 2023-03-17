@@ -1,0 +1,46 @@
+.mycontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+input {
+    width: 300px;
+    border: none;
+    box-shadow: 0 0 5px rgba(71, 71, 71, 0.479);
+    padding: 8px;
+    margin: 10px;
+    border-radius: 5px;
+    outline: none;
+}
+
+input:focus {
+    text-decoration: none;
+    border: 2px solid aqua;
+    box-shadow: 0 0 10px aqua;
+}
+
+input:nth-child(1) {
+    margin-top: 45px;
+}
+
+.mycontainer button {
+        margin: 1rem;
+        padding: 0.5rem 1rem;
+        background-color: rgb(79, 228, 228);
+        box-shadow: 0 0 10px aqua;
+        color: rgb(255, 255, 255);
+        border: none;
+        cursor: pointer;
+        border-radius: 3px;
+        margin-bottom: 45px;
+}
+
+.mycontainer button:active {
+    background-color: rgb(114, 255, 255);
+}
+
+td, th {
+    text-align: center;
+}
